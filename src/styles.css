@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Spectral:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0em;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fbf8eeff;
+    font-family: 'Open Sans', sans-serif;
+}
