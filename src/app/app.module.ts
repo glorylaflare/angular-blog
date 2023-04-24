@@ -8,6 +8,7 @@ import { BlogTituloComponent } from './components/blog-titulo/blog-titulo.compon
 import { BlogSubtituloComponent } from './components/blog-subtitulo/blog-subtitulo.component';
 import { BlogDestaqueComponent } from './components/blog-destaque/blog-destaque.component';
 import { BlogCardsComponent } from './components/blog-cards/blog-cards.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BlogCardsComponent } from './components/blog-cards/blog-cards.component
     BlogTituloComponent,
     BlogSubtituloComponent,
     BlogDestaqueComponent,
-    BlogCardsComponent
+    BlogCardsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
