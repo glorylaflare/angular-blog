@@ -1,0 +1,66 @@
+.container__blog-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 3em 0 3em 12em;
+    align-items: center;
+}
+
+.container__blog-menu-links {
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.container__blog-menu-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+.container__blog-menu-title-italic {
+    font-style: italic;
+    font-family: 'Spectral', serif;
+}
+
+.container__blog-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.container__blog-menu ul > li {
+    margin-right: 2em;
+}
+
+.container__blog-menu-button {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 80%;
+}
+
+.container__blog-menu-button li {
+    margin-right: .7em;
+}
+
+
+.container__blog-menu-button-howitworks {
+    padding: .6em .9em;
+    background-color:#fbf8eeff;
+    color: #01573eff;
+    font-size: .85em;
+    border: 0.1em solid #01573eff;
+    border-radius: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container__blog-menu-button-getstarted {
+    padding: .6em .9em;
+    background-color: #01573eff;
+    color: #ffffff;
+    font-size: .85em;
+    border: 0.1em solid #01573eff;
+    border-radius: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}
