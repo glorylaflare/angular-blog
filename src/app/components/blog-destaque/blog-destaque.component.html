@@ -1,12 +1,12 @@
 <div class="container__blog-destaque">
     <div class="container__blog-destaque-img">
-            <a href="http://">
+            <a [routerLink]="['content', Id]">
             <img src="{{photoCover}}" alt="" srcset="" class="container__blog-destaque-img-edit">
             </a>
     </div>
     <div class="container__blog-destaque-conteudo">
         <div class="container__blog-destaque-titulo">
-            <h1><a href="http://">{{cardTitle}}</a></h1>
+            <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
         </div>
         <div class="container__blog-destaque-descricao">
             <p>{{cardDescription}}</p>
