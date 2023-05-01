@@ -9,6 +9,7 @@ import { BlogSubtituloComponent } from './components/blog-subtitulo/blog-subtitu
 import { BlogDestaqueComponent } from './components/blog-destaque/blog-destaque.component';
 import { BlogCardsComponent } from './components/blog-cards/blog-cards.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './pages/home/home.component';
     BlogSubtituloComponent,
     BlogDestaqueComponent,
     BlogCardsComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

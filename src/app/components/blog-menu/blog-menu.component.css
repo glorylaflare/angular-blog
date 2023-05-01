@@ -12,6 +12,7 @@
 
 .container__blog-menu-title {
     font-size: 1em;
+    color: #01573e;
     font-weight: bold;
     margin-right: 2em;
 }
@@ -29,6 +30,12 @@
 
 .container__blog-menu ul > li {
     margin-right: 2em;
+    color: #01573e;
+}
+
+a {
+    color: #01573e;
+    text-decoration: none;
 }
 
 .container__blog-menu-button {
@@ -46,9 +53,9 @@
 .container__blog-menu-button-howitworks {
     padding: .6em .9em;
     background-color:#fbf8eeff;
-    color: #01573eff;
+    color: #01573e;
     font-size: .85em;
-    border: 0.1em solid #01573eff;
+    border: 0.1em solid #01573e;
     border-radius: .5em;
     font-weight: bold;
     cursor: pointer;
@@ -56,10 +63,10 @@
 
 .container__blog-menu-button-getstarted {
     padding: .6em .9em;
-    background-color: #01573eff;
+    background-color: #01573e;
     color: #ffffff;
     font-size: .85em;
-    border: 0.1em solid #01573eff;
+    border: 0.1em solid #01573e;
     border-radius: .5em;
     font-weight: bold;
     cursor: pointer;

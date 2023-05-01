@@ -1,0 +1,35 @@
+.container__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #01573e;
+}
+
+.content__cover > img {
+    width: 500px;
+    height: 250px;
+    min-width: 500px;
+    min-height: 250px;
+    object-fit: cover;
+}
+
+.content__title {
+    margin: .5em 0;
+    font-size: .8em;
+}
+
+.content__description {
+    font-size: .9em;
+}
+
+.content__voltar {
+    font-size: .8em;
+    margin-top: 1em;
+    text-decoration: underline;
+}
+
+a {
+    color: #01573e;
+    text-decoration: none;
+}
